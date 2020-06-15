@@ -22,3 +22,29 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+# Pester Player about Reupload
+country_event = {
+	id = missions_expanded_events.2
+	title = missions_expanded_events.EVTNAME2
+	desc = missions_expanded_events.EVTDESC2
+	picture = DIPLOMACY_eventPicture
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		NOT = { has_country_flag = ME_old_mod }
+	}
+	
+	immediate = {
+		set_country_flag = ME_old_mod
+	}
+
+	option = {
+		name = missions_expanded_events2.EVTOPT2
+
+		ai_chance = { factor = 100 }
+	}
+}
