@@ -11,7 +11,7 @@ l_english:
  the_fix_desc: "If your mission tree is missing a lot or its empty, click this button. If it doesnt work, then blame the LordVarangian for it. Blame his new generic missions as well."
 
  # Pester
- missions_expanded_events.EVTNAME2: "You are currently running the §ROutdated Version§! of the Missions Expanded Mod."
+ missions_expanded_events.EVTNAME2: "§ROutdated Version§! of Missions Expanded Detected"
  missions_expanded_events.EVTDESC2: "§RMissions Expanded by LordVarangian§! is discontinued, to play the most recent and updated version of the mod, download §GMissions Expanded by Stiopa866§! on the Steam Workshop."
  # ME custom loc:
  string_me_get_country_flag: "@[This.GetTag]"
